@@ -1,0 +1,16 @@
+use project2;
+create table users(
+	id int unsigned auto_increment not null primary key,
+	username varchar(32) not null,
+	password varchar(32) not null,
+	passwordhash blob(16) not null,
+	unique(username)
+);
+
+create table history(
+	id int unsigned auto_increment not null primary key,
+	user_id  int unsigned not null,
+	query varchar(2048) not null,
+	index(user_id)
+);
+

