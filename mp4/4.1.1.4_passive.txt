@@ -1,0 +1,22 @@
+220 (vsFTPd 3.0.2)
+331 Please specify the password.
+230 Login successful.
+215 UNIX Type: L8
+257 "/ftp"
+200 Switching to Binary mode.
+213 69
+200 PORT command successful. Consider using PASV.
+150 Opening BINARY mode data connection for flag.txt (69 bytes).
+226 Transfer complete.
+
+
+220 (vsFTPd 3.0.2)
+331 Please specify the password.
+230 Login successful.
+215 UNIX Type: L8
+257 "/ftp"
+200 Switching to Binary mode.
+213 62
+227 Entering Passive Mode (10,48,118,65,166,66).
+150 Opening BINARY mode data connection for flag.txt (62 bytes).
+226 Transfer complete.
