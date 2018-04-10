@@ -1,1 +1,1 @@
-token=a6d8749a4fff40bca40bdd23850cdf38&user=admin&command1=ListFiles&command2=NoOp
+token=88840e281851452dfcaeeb9be83e500c&user=admin&command1=ListFiles&command2=NoOp
