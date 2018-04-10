@@ -15,3 +15,17 @@ SQL Injection
 CSRF Attack
 
 XSS Attack
+
+### cryptography 
+Length Extension
+
+MD5 Collisions
+
+Exploiting a Padding Oracle
+
+Mining your Ps and Qs
+
+### Network Security
+Network Attacks
+
+Anomaly Detection
